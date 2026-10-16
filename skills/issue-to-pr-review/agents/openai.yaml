@@ -1,0 +1,8 @@
+interface:
+  display_name: "Issue to PR Review"
+  short_description: "Run the issue-to-PR review lifecycle"
+  brand_color: "#C9973E"
+  default_prompt: "Use $issue-to-pr-review to execute this issue through PR review and final verification."
+
+policy:
+  allow_implicit_invocation: true
