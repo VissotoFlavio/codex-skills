@@ -53,6 +53,7 @@ contratos afetados. Não faça alterações.
 
 - Leia as instruções do repositório antes de agir e escolha o modo mais restrito que atende ao pedido.
 - Use somente `gh` para GitHub e valide a sessão com `gh auth status` antes de qualquer operação.
+- Antes de criar uma branch de trabalho, confirme a branch-base, atualize-a a partir do remoto e inicie a atividade somente com essa base sincronizada.
 - Não infira autorização para abrir PRs, fazer merge, deploy, migrations, mudanças de infraestrutura ou ações destrutivas.
 - Respeite políticas de issue, branch, changelog e commits do repositório alvo.
 - Use `Closes #<issue>` em Pull Requests elegíveis e envie descrições em Markdown com quebras de linha reais.

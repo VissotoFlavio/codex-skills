@@ -18,12 +18,13 @@ If the issue is missing, ambiguous, or not associated with the requested deliver
 2. Read the issue, repository instructions, and relevant code.
 3. Prepare a concise plan, risks, exclusions, Definition of Done, and validation set. Use Asgard's execution graph when Asgard is requested or the work is materially risky.
 4. Confirm the branch base. Use `develop` for feature work, `master` for hotfix work, and the repository's documented release flow for releases.
-5. Implement only the issue scope. Do not install dependencies, alter persistent data, or mutate infrastructure without explicit authority.
-6. Inspect the final diff before validation. Run the smallest relevant build, tests, lint, and static checks once unless an earlier run is necessary to reproduce a failure or satisfy policy.
-7. Check the project for a changelog and update it when the repository policy requires an entry for the delivery.
-8. Create a focused Conventional Commit when local commits are authorized.
-9. Push and open the Pull Request only when the user requested the delivery to end with a PR. Use a body file or equivalent mechanism that preserves real Markdown line breaks.
-10. Re-read the created Pull Request and report its URL, issue linkage, changed artifacts, validations, and remaining authority boundaries.
+5. Before creating the delivery branch, switch to the confirmed base and synchronize it with its remote. Start work only from the updated base; report and stop if synchronization cannot be completed safely.
+6. Implement only the issue scope. Do not install dependencies, alter persistent data, or mutate infrastructure without explicit authority.
+7. Inspect the final diff before validation. Run the smallest relevant build, tests, lint, and static checks once unless an earlier run is necessary to reproduce a failure or satisfy policy.
+8. Check the project for a changelog and update it when the repository policy requires an entry for the delivery.
+9. Create a focused Conventional Commit when local commits are authorized.
+10. Push and open the Pull Request only when the user requested the delivery to end with a PR. Use a body file or equivalent mechanism that preserves real Markdown line breaks.
+11. Re-read the created Pull Request and report its URL, issue linkage, changed artifacts, validations, and remaining authority boundaries.
 
 ## Pull Request body
 

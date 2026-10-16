@@ -30,6 +30,7 @@ Use the repository's issue, branch, changelog, Pull Request, and release policy.
 
 - confirm that an authoritative issue exists before creating a delivery branch;
 - confirm the branch base before creating any branch;
+- synchronize the confirmed base branch with its remote before creating the delivery branch; do not start the activity from a stale base;
 - never commit directly to protected branches;
 - use the required branch naming convention and keep it within the repository limit;
 - inspect the final diff before opening or updating a Pull Request;
