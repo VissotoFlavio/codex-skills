@@ -51,7 +51,7 @@ Read [delivery.md](references/delivery.md) for the detailed delivery contract.
 
 For **REVIEW_COMMENTS**, read the issue, current Pull Request, previous reviews, general comments, inline comments, requested changes, current diff, and relevant checks. Classify each comment as actionable, ambiguous, rejected with evidence, already resolved, obsolete, or out of scope. Report the required action and do not modify the candidate.
 
-For **CORRECT**, require explicit authority to change the candidate. Group compatible findings into one bounded correction pass, preserve the issue scope, run only affected validations, inspect the diff, and update the Pull Request with a real Markdown summary. Do not mark threads resolved without evidence that the exact concern was addressed.
+For **CORRECT**, require explicit authority to change the candidate. Group compatible findings into one bounded correction pass, preserve the issue scope, run only affected validations, inspect the diff, and update the Pull Request with a real Markdown summary. After validating that an adjustment addresses a review finding, mark its GitHub review thread resolved. Do not resolve a thread without evidence that its exact concern was addressed.
 
 Read [review-comments.md](references/review-comments.md) for comment classification and correction rules.
 

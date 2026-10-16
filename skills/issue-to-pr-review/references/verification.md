@@ -17,6 +17,8 @@ For every accepted review finding:
 5. Confirm focused tests or other evidence cover the correction.
 6. Classify the result as corrected, partially corrected, not corrected, inadequate correction, obsolete, or inconclusive.
 
+When the verification confirms that a correction resolves the exact concern, record that the corresponding review thread is eligible to be resolved in the correction workflow. `VERIFY` remains read-only and must not change the thread state itself.
+
 ## Final checks
 
 Also verify, proportional to risk:

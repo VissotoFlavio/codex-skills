@@ -30,4 +30,5 @@ After correction:
 - inspect the diff and confirm no unrelated changes entered;
 - update the Pull Request with a real Markdown summary of the corrections when authorized;
 - preserve unresolved or disputed comments for explicit follow-up;
+- after validating that a correction addresses a comment's exact concern, mark its GitHub review thread resolved;
 - do not mark a thread resolved without evidence that its exact concern is addressed.
