@@ -16,7 +16,7 @@ If the issue is missing, ambiguous, or not associated with the requested deliver
 
 1. Run `gh auth status` before GitHub reads or writes.
 2. Read the issue, repository instructions, and relevant code.
-3. Prepare a concise plan, risks, exclusions, Definition of Done, and validation set. Use Asgard's execution graph when Asgard is requested or the work is materially risky.
+3. Prepare a concise plan, risks, exclusions, Definition of Done, and validation set proportional to the delivery risk.
 4. Confirm the branch base. Use `develop` for feature work, `master` for hotfix work, and the repository's documented release flow for releases.
 5. Before creating the delivery branch, switch to the confirmed base and synchronize it with its remote. Start work only from the updated base; report and stop if synchronization cannot be completed safely.
 6. Implement only the issue scope. Do not install dependencies, alter persistent data, or mutate infrastructure without explicit authority.

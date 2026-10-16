@@ -9,8 +9,6 @@ metadata:
 
 Run a bounded GitHub delivery lifecycle from an authoritative issue through Pull Request creation, review-comment analysis, correction, and verification. Use this skill when the user wants the complete issue-to-PR loop or one of its explicit phases.
 
-This skill complements Asgard; it does not replace Asgard's intent classification, proportional orchestration, specialist routing, or final acceptance. When Asgard is requested, preserve its execution graph and review gates. Do not invoke Asgard recursively from specialist tasks.
-
 ## Route the request
 
 Select the narrowest applicable mode:
